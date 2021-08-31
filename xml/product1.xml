@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Assignment 1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Kuala Lumpur</title>
+    
+    <link rel="icon" href="images/favcon.png" type="image/gif" sizes="16x16"/>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <a href="./index.htm" target="_self" title="Homepage">
+                    <img src="./images/PlanIt_logo2.png" alt="logo"/>
+                </a>
+            </div>
+            <ul>
+                <li class="active"><a href="Index.htm" target="_self" title="Homepage">Home</a></li>
+                <li class="dropdown" id="menu"><a href="aboutus.html" class="dropbtn" target="_blank" title="About Plan It">About Us</a>
+				  <div class="dropdown-content">
+				 
+						<select name="aboutus" id="aboutus">
+						<option value="#">MEMBERS</option>
+                                    <option href="profile1.html" value="profile1.html">ALEC</option>
+                                    <option href="profile2.html" value="profile2.html">OLIVIA</option>
+									<option href="profile3.html" value="profile3.html">NIGEL</option>
+									<option href="profile4.html" value="profile4.html">JONATHAN</option>
+						</select>
+						
+                                </div>
+				</li>
+				
+                <li class="dropdown" id="menu"><a href="locations.html" class="dropbtn" target="_blank" title="Our vacation locations">Locations</a>
+				<div class="dropdown-content">
+				<select name="places" id="places">
+                <option value="#">Places</option>
+                                    <option href="product1.html" value="product1.html">Kuala Lumpur</option>
+                                    <option href="product2.html" value="product2.html">Langkawi Islands</option>
+									<option href="product3.html" value="product3.html">Sabah</option>
+									<option href="product4.html" value="product4.html">Kuching</option>
+						</select>
+                                </div>
+				
+				</li>
+                <li><a href="enquiry.html" target="_blank" title="Enquriy and Contacts">Enquiry</a></li>
+                <li><a href="disclaimer.html" target="_blank" title="Disclaimer">Disclaimer</a></li>
+                <li><a href="enhancements.html" target="_blank" title="Enhancement">Enhancement</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <!--content starts here-->
+    <div class="enhantextbox">
+        <h1>KUALA LUMPUR</h1>
+    </div>
+
+        <div class="FP">
+		<br/>
+	       <fieldset class="field">
+            <legend class="legend">Family Packages</legend>
+            <img src='images/sunway.jpg' alt="Sunway"/> 
+            <div class="para"><strong>Sunway Lagoon</strong><br/>We are the one-stop place for fun over 90 attractions spread across 88 acres, Sunway Lagoon provides the ultimate theme park experience in 6 adventure zones — Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park &amp; Nickelodeon Lost Lagoon. Explore the various dining options available at the theme park. If you need some place to sleep, we are just next door to the Sunway Resort Hotel &amp; Spa.
+            <br />
+            <div class="enquire">
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            <hr />
+            <br />
+            <img src="images/aquaria.jpg" alt="Aquaria"/> 
+            <div class="para"><strong>Aquaria KLCC</strong><br/>An amazing showcase of 5,000 land bound and aquatic creature exhibits spread over a sprawling 60,000 sq feet, featuring tiger sharks, sea turtles, sea snakes, flying rays, coral fish, seahorses and many more! Highlight attraction: take a walk through Malaysia’s first underground aquarium exhibit, a 90-metre transparent tunnel that allows visitors full view of wildlife in their element.
+            <br />
+            <div class="enquire">    
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            </fieldset>
+	   </div>
+        
+        <div class="CP">
+		<br/>
+	       <fieldset class="field">
+           <legend class="legend">Couple Packages</legend>
+            <img src='images/mandarin.jpg' alt="Mandarin Oriental Hotel"/> 
+            <div class="para"><strong>Mandarin Oriental Hotel</strong><br/>The award winning owner and operator of some of the most luxurious hotels, resorts and residences located in prime destinations around the world. Above all, Mandarin Oriental is renowned for creating unique hotels through distinctive design and a strong sense of place, luxury hotels right for their time and place.
+            <br />
+            <div class="enquire">
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            <hr />
+            <br />
+            <img src="images/shangrila.jpg" alt="Shangri La"/> 
+            <div class="para"><strong>Shangri La Hotel</strong><br/>With a serene view of the beautiful gardens and Kuala Lumpur Tower, as Malaysia’s vibrant capital city bids you a fine morning. After a traditional Chinese dinner at Shangri-La’s renowned Shang Palace, you unwind at Arthur’s Bar and Grill with signature cocktails and fine wines. Enjoy your enchanting dreams, with compliments from Shangri-La Hotel.
+            <br />
+            <div class="enquire">
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            </fieldset>
+	   </div>
+        
+        <div class="HP">
+		<br/>
+	       <fieldset class="field">
+           <legend class="legend">Honeymoon Packages</legend>
+            <img src='images/majestic.jpg' alt="The Majestic Hotel Kuala Lumpur"/> 
+            <div class="para"><strong>The Majestic Hotel Kuala Lumpur</strong><br/>The Majestic Hotel Kuala Lumpur includes the original Hotel Majestic which is documented as a national heritage site. This colonial structure was built in 1932 and became one of the great hotels of Kuala Lumpur in its time. The hotel came to be the place for glamorous social events, government receptions and the residence for prominent international visitors.
+            <br />
+            <div class="enquire">   
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            <hr />
+            <br />
+            <img src="images/regis.jpeg" alt="St.Regis"/> 
+            <div class="para"><strong>The St.Regis Kuala Lumpur</strong><br/>The St. Regis Kuala Lumpur, a luxury hotel located in the heart of KL Sentral, Malaysia is home to an exquisite private Art Collection. View an extensive array of works at the hotel, from a specially commissioned monumental horse sculpture by Fernando Botero and Mark Evans' leather murals depicting a powerful polo charge to a three-dimensional Birds and Butterflies installation by Barnaby Hosking.
+            <br />
+            <div class="enquire">
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            </fieldset>
+	   </div>
+        
+        <div class="BP">
+		<br/>
+	       <fieldset class="field">
+           <legend class="legend">Bestseller Packages</legend>
+            <img src='images/genting.webp' alt="Resort World Genting"/> 
+            <div class="para"><strong>Resort World Genting</strong><br/>With about 10,500 rooms across seven distinct hotels, Resorts World Genting (“RWG”) is Malaysia’s premier integrated resort destination. The resort also features wide-ranging leisure and entertainment facilities, including gaming, theme park and amusement attractions, dining and retail outlets, as well as international shows and business convention facilities. 
+            <br />
+            <div class="enquire">
+                <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            <hr />
+            <br />
+            <img src="images/cameron.jpg" alt="Cameron Highlands"/> 
+            <div class="para"><strong>Cameron Highlands</strong><br/>Cameron Highlands is a district in Pahang, Malaysia, occupying an area of 712.18 square kilometres. To the north, its boundary touches that of Kelantan; to the west, it shares part of its border with Perak. Situated at the northwestern tip of Pahang, the "Camerons" is approximately 90 kilometres (56 mi) from Ipoh, roughly 200 kilometres (120 mi) from Kuala Lumpur.
+            <br />
+            <div class="enquire">    
+                <a href="enquiry.html">Enquire</a>
+            </div>    
+            </div>
+            </fieldset>
+	   </div>
+        
+        <div class="FP">
+		<br/>
+	       <fieldset class="field">
+           <legend class="legend">Festival Packages</legend>
+            <img src='images/batu.jpg' alt="Batu Caves"/> 
+            <div class="para"><strong>Batu Caves</strong><br/>Batu Caves is a limestone hill that has a series of caves and cave temples in Gombak, Selangor, Malaysia. It takes its name from the Malay word batu, meaning 'rock'. Batu Caves is also the name of a nearby town. The cave is one of the most popular Hindu shrines outside India, and is dedicated to Lord Murugan. It is the focal point of the Hindu festival of Thaipusam in Malaysia.  
+            <br />
+            <br />
+            <div class="enquire">    
+            <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            <hr />
+            <br />
+            <img src="images/kuan.jpg" alt=" Kuan Yin Temple"/> 
+            <div class="para"><strong> Kuan Yin Temple</strong><br/>The Goddess of Mercy Temple (also known as Kuan Yin Teng) is a Chinese temple in the city of George Town in Penang, Malaysia. Situated at Pitt Street, it was first built in 1728, making it Penang's oldest Taoist temple.The temple is dedicated to the Taoist Goddess of Mercy, Guan Yin.
+            <br />
+            <br />
+            <div class="enquire">    
+            <a href="enquiry.html">Enquire</a>
+            </div>
+            </div>
+            </fieldset>
+	   </div>
+	<br/>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="images/PlanIt_logo2.png" alt="LOGO" class="logo"/>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/traveloka.com.my/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/travelokaMY?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/travelokamy/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk8XPjpvC_wXQhXrT5unl9Q"><i class="fab fa-youtube"></i></a>
+                    <a href="https://id.linkedin.com/company/traveloka-com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="rights-text">PLAN IT &amp; TRAVEL | All Rights Reserved.</p>
+            </div>
+
+
+            <div class="footer-distributed">
+
+                <div class="footer-left">
+                    <h3>PLAN IT &amp; TRAVEL<span> Co.</span></h3>
+
+                     <p class="footer-links">
+                        <a href="Index.htm">Home</a>
+                        |
+                        <a href="aboutus.html">About Us</a>
+                        |
+                        <a href="locations.html">Location</a>
+                        |
+                        <a href="enquiry.html">Contact Us</a>
+                    </p>
+
+                    <br/>
+                    <br/>
+                    <div class="right-col">
+                        <h1>Our Newsletter</h1>
+                        <div class="border"></div>
+                        <p>Enter Your Email to get our news and updates.</p>
+                        <form  class="newsletter-form">
+                            <input type="text" class="txtb" placeholder="Enter Your Email"/>
+                            <input type="submit" class="btn1" value="submit"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/enhancements.js"></script>
+	<script src="./script/script.js"></script>
+</body>
+
+
+</html>

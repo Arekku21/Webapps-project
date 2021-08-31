@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Meet our members</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+
+    <link rel="icon" href="./images/favcon.png" type="image/gif" sizes="16x16"/>
+
+</head>
+
+<body class="alecbody">
+
+    <header>
+        <div class="main">
+            <div class="logo">
+                <a href="./index.htm" target="_self" title="Homepage">
+                    <img src="./images/PlanIt_logo2.png" alt="logo"/>
+                </a>
+            </div>
+            <ul>
+                <li class="active"><a href="Index.htm" target="_self" title="Homepage">Home</a></li>
+                <li class="dropdown" id="menu"><a href="aboutus.html" class="dropbtn" target="_blank" title="About Plan It">About Us</a>
+				  <div class="dropdown-content">
+				 
+						<select name="aboutus" id="aboutus">
+						<option value="#">MEMBERS</option>
+                                    <option href="profile1.html" value="profile1.html">ALEC</option>
+                                    <option href="profile2.html" value="profile2.html">OLIVIA</option>
+									<option href="profile3.html" value="profile3.html">NIGEL</option>
+									<option href="profile4.html" value="profile4.html">JONATHAN</option>
+						</select>
+						
+                                </div>
+				</li>
+				
+                <li class="dropdown" id="menu"><a href="locations.html" class="dropbtn" target="_blank" title="Our vacation locations">Locations</a>
+				<div class="dropdown-content">
+				<select name="places" id="places">
+                <option value="#">Places</option>
+                                    <option href="product1.html" value="product1.html">Kuala Lumpur</option>
+                                    <option href="product2.html" value="product2.html">Langkawi Islands</option>
+									<option href="product3.html" value="product3.html">Sabah</option>
+									<option href="product4.html" value="product4.html">Kuching</option>
+						</select>
+                                </div>
+				
+				</li>
+                <li><a href="enquiry.html" target="_blank" title="Enquriy and Contacts">Enquiry</a></li>
+                <li><a href="disclaimer.html" target="_blank" title="Disclaimer">Disclaimer</a></li>
+                <li><a href="enhancements.html" target="_blank" title="Enhancement">Enhancement</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="atextbox">
+        <h1>Team Members</h1>
+    </div>
+
+    <div class="amain">
+        <div class="apicholder">
+            <img src="./images/alec.png" alt="Alec picture"/>
+        </div>
+
+        <div class="aholder1">
+            <p>Alec Vince, 19</p>
+            <p>Developer Team</p>
+            <p>101220553</p>
+            <p>Swinburne University of Technology Sarawak (SUTS)</p>
+            <p>Bachelor of Computer Science</p>
+        </div>
+
+        <div>
+            <table class="atable">
+                <tr>
+                    <th colspan="5">Table of Contribution</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Webpage</td>
+                    <td>Enhancements.html</td>
+                    <td>A webpage part of the website of Plan It.</td>
+                    <td>
+                        <a href="./enhancements.html" class="p2button1">Enhancements</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Webpage</td>
+                    <td>Profile1,2,3,4.html</td>
+                    <td>The general layout and code of the individual webpage</td>
+                    <td>
+                        <a href="./profile1.html" class="p2button1">Profile 1</a>
+                        <a href="./profile2.html" class="p2button1">Profile 2</a>
+                        <a href="./profile3.html" class="p2button1">Profile 3</a>
+
+                        <a href="./profile4.html" class="p2button1">Profile 4</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Webpage</td>
+                    <td>About us.html</td>
+                    <td>The general about us webpage.</td>
+                    <td><a href="./aboutus.html" class="p2button1">About Us</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Webpage</td>
+                    <td>Location.html</td>
+                    <td>The general overview of our companies offered locations.</td>
+                    <td><a href="./locations.html" class="p2button1">Locations</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Webpage</td>
+                    <td>Product4.html</td>
+                    <td>Worked on the webpage using the layout given</td>
+                    <td><a href="./product4.html" class="p2button1">Product 4</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="amainholder2">
+            <aside class="aaboutmehead">
+                <h2>About Me </h2>
+            </aside>
+            <div class="aholder2">
+                <div class="aaboutme">
+                    <div>
+                       <strong>Hi my name is Alec Vince from the Philppines.</strong>
+                        <ol>
+                            <li>I am part of the Web Developer Team of Plan it. </li>
+                            <li>The one thing that I want to share is one of my many Spotify playlist of my favourite songs !</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <div class="aholder3">
+                    <a id="spotifylink"></a>
+                        <iframe src="https://open.spotify.com/embed/playlist/1Jbuydp0fcBF0UXHkH7hdC" width="300" height="380" allow="encrypted-media"></iframe>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="aemail">
+
+            <p>
+                <a href="mailto:101220553@students.swinburne.edu.my">
+                    Click me to email our member !
+                </a>
+            </p>
+
+        </div>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="./images/PlanIt_logo2.png" alt="" class="logo"/>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/traveloka.com.my/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/travelokaMY?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/travelokamy/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk8XPjpvC_wXQhXrT5unl9Q"><i class="fab fa-youtube"></i></a>
+                    <a href="https://id.linkedin.com/company/traveloka-com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="rights-text"> PLAN IT &amp; TRAVEL | All Rights Reserved.</p>
+            </div>
+
+
+            <div class="footer-distributed">
+
+                <div class="footer-left">
+                    <h3>PLAN IT &amp; TRAVEL<span> Co.</span></h3>
+
+                     <p class="footer-links">
+                        <a href="Index.htm">Home</a>
+                        |
+                        <a href="aboutus.html">About Us</a>
+                        |
+                        <a href="locations.html">Location</a>
+                        |
+                        <a href="enquiry.html">Contact Us</a>
+                    </p>
+
+                    <br/>
+                    <br/>
+                    <div class="right-col">
+                        <h1>Our Newsletter</h1>
+                        <div class="border"></div>
+                        <p>Enter Your Email to get our news and updates.</p>
+                        <form class="newsletter-form">
+                            <input type="text" class="txtb" placeholder="Enter Your Email"/>
+                            <input type="submit" class="btn1" value="submit"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="./script/script.js"></script>
+
+</body>
+
+</html>

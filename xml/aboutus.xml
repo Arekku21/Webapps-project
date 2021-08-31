@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>About us</title>
+
+    <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+
+    <link rel="icon" href="./images/favcon.png" type="image/gif" sizes="16x16"/>
+</head>
+
+<body class="pbody">
+    <header>
+        <div class="main">
+            <div class="logo">
+                <a href="./index.htm" target="_self" title="Homepage">
+                    <img src="./images/PlanIt_logo2.png" alt="logo"/>
+                </a>
+            </div>
+            <ul>
+                <li><a href="Index.htm" target="_self" title="Homepage">Home</a></li>
+                <li class="dropdown" id="menu"><a href="aboutus.html" class="dropbtn" target="_blank" title="About Plan It">About Us</a>
+				  <div class="dropdown-content">
+				 
+						<select name="aboutus" id="aboutus">
+						<option value="#">MEMBERS</option>
+                                    <option href="profile1.html" value="profile1.html">ALEC</option>
+                                    <option href="profile2.html" value="profile2.html">OLIVIA</option>
+									<option href="profile3.html" value="profile3.html">NIGEL</option>
+									<option href="profile4.html" value="profile4.html">JONATHAN</option>
+						</select>
+						
+                                </div>
+				</li>
+				
+                <li class="dropdown" id="menu"><a href="locations.html" class="dropbtn" target="_blank" title="Our vacation locations">Locations</a>
+				<div class="dropdown-content">
+				<select name="places" id="places">
+                <option value="#">Places</option>
+                                    <option href="product1.html" value="product1.html">Kuala Lumpur</option>
+                                    <option href="product2.html" value="product2.html">Langkawi Islands</option>
+									<option href="product3.html" value="product3.html">Sabah</option>
+									<option href="product4.html" value="product4.html">Kuching</option>
+						</select>
+                                </div>
+				
+				</li>
+                <li><a href="enquiry.html" target="_blank" title="Enquriy and Contacts">Enquiry</a></li>
+                <li><a href="disclaimer.html" target="_blank" title="Disclaimer">Disclaimer</a></li>
+                <li><a href="enhancements.html" target="_blank" title="Enhancement">Enhancement</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="pmain">
+        <a id="teamlink"> </a>
+        <!-- content -->
+
+        <div class="ptextbox">
+            <h1>Our Team </h1>
+        </div>
+
+        <div class="pholder1">
+            <div class="ptop1">
+                <img src="./images/setting.png" alt="settings icon"/>
+                <div class="ptext">Plan It</div>
+                <img src="./images/message.png" alt="messages icon"/>
+            </div>
+
+            <div class="pimage1">
+                <img src="./images/olly.png" alt="Olivia picture"/>
+            </div>
+
+            <div class="ptext2">
+                Olivia, 20
+            </div>
+
+            <div class="ptext3">
+                Developer Team
+            </div>
+
+            <div class="pmiddle1">
+                <img class="picon" src="./images/retry.png" alt="retry icon"/>
+                <img class="piconmain" src="./images/cross.png" alt="wrong icon"/>
+                <img class="piconmain" src="./images/like.png" alt="like icon"/>
+                <img class="picon" src="./images/star1.png" alt="star icon"/>
+            </div>
+
+            <div class="pbuttonholder">
+                <a href="./profile2.html" class="pbutton1">LIKE</a>
+            </div>
+        </div>
+
+        <div class="pholder2">
+            <div class="ptop2">
+                <img src="./images/setting.png" alt="settings icon"/>
+                <div class="ptext">Plan It</div>
+                <img src="./images/message.png" alt="messages icon"/>
+            </div>
+
+            <div class="pimage2">
+                <img src="./images/ngl.png" alt="Nigel picture"/>
+            </div>
+
+            <div class="ptext2">
+                Nigel,20
+            </div>
+
+            <div class="ptext3">
+                Developer Team
+            </div>
+
+            <div class="pmiddle1">
+                <img class="picon" src="./images/retry.png" alt="retry icon"/>
+                <img class="piconmain" src="./images/cross.png" alt="wrong icon"/>
+                <img class="piconmain" src="./images/like.png" alt="like icon"/>
+                <img class="picon" src="./images/star1.png" alt="star icon"/>
+            </div>
+
+            <div class="pbuttonholder">
+                <a href="./profile3.html" class="pbutton1">LIKE</a>
+            </div>
+        </div>
+
+        <div class="pholder3">
+            <div class="ptop3">
+                <img src="./images/setting.png" alt="settings icon"/>
+                <div class="ptext">Plan It</div>
+                <img src="./images/message.png" alt="messages icon"/>
+            </div>
+
+            <div class="pimage3">
+                <img src="./images/joan.png" alt="Jonathan picture"/>
+            </div>
+
+            <div class="ptext2">
+                Jonathan, 20
+            </div>
+
+            <div class="ptext3">
+                Developer Team
+            </div>
+
+            <div class="pmiddle1">
+                <img class="picon" src="./images/retry.png" alt="retry icon"/>
+                <img class="piconmain" src="./images/cross.png" alt="wrong icon"/>
+                <img class="piconmain" src="./images/like.png" alt="like icon"/>
+                <img class="picon" src="./images/star1.png" alt="star icon"/>
+            </div>
+
+            <div class="pbuttonholder">
+                <a href="./profile4.html" class="pbutton1">LIKE</a>
+            </div>
+        </div>
+
+        <div class="pholder4">
+            <div class="ptop4">
+                <img src="./images/setting.png" alt="settings icon"/>
+                <div class="ptext">Plan It</div>
+                <img src="./images/message.png" alt="messages icon"/>
+            </div>
+
+            <div class="pimage4">
+                <img src="./images/alec.png" alt="Alec picture"/>
+            </div>
+
+            <div class="ptext2">
+                Alec, 19
+            </div>
+
+            <div class="ptext3">
+                Developer Team
+            </div>
+
+            <div class="pmiddle1">
+                <img class="picon" src="./images/retry.png" alt="retry icon"/>
+                <img class="piconmain" src="./images/cross.png" alt="wrong icon"/>
+                <img class="piconmain" src="./images/like.png" alt="like icon"/>
+                <img class="picon" src="./images/star1.png" alt="star icon"/>
+            </div>
+
+            <div class="pbuttonholder">
+                <a href="./profile1.html" class="pbutton1">LIKE</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="images/PlanIt_logo2.png" alt="LOGO" class="logo"/>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/traveloka.com.my/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/travelokaMY?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/travelokamy/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCk8XPjpvC_wXQhXrT5unl9Q"><i class="fab fa-youtube"></i></a>
+                    <a href="https://id.linkedin.com/company/traveloka-com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="rights-text"> PLAN IT &amp; TRAVEL | All Rights Reserved.</p>
+        </div>
+			
+			
+
+            <div class="footer-distributed">
+
+                <div class="footer-left">
+                    <h3>PLAN IT &amp; TRAVEL<span> Co.</span></h3>
+
+                    <p class="footer-links">
+                        <a href="Index.htm">Home</a>
+                        |
+                        <a href="aboutus.html">About Us</a>
+                        |
+                        <a href="locations.html">Location</a>
+                        |
+                        <a href="enquiry.html">Contact Us</a>
+                    </p>
+                    <br/>
+                    <br/>
+                    <div class="right-col">
+                        <h1>Our Newsletter</h1>
+                        <div class="border"></div>
+                            <p>Enter Your Email to get our news and updates.</p>
+                            <form class="newsletter-form">
+                                <input type="text" class="txtb" placeholder="Enter Your Email"/>
+                                <input type="submit" class="btn1" value="submit"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+	
+		<!-- This is the javascript needed html elements for the loding animation -->
+	
+	<div class="introo">
+      <div class="introo-text">
+        <h1 class="hide">
+          <span class="text">  Get To  </span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">    Know Us More   </span>
+        </h1>
+      </div>
+    </div>
+    <div class="sliderr"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+	
+	 <!-- This is the javascript needed html elements for the loding animation -->
+	  <script src="./script/enhancements.js"></script>
+	  <script src="./script/script.js"></script>
+
+
+</body>
+
+</html>
